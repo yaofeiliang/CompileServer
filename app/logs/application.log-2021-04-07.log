@@ -1,0 +1,151 @@
+[2021-04-07T04:00:24.255] [ERROR] application - TypeError: Cannot read property 'body' of undefined
+    at /Users/yao/composetest/app/app.js:93:32
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/yao/composetest/app/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/yao/composetest/app/node_modules/koa-convert/index.js:24:16)
+[2021-04-07T04:00:52.750] [ERROR] application - TypeError: Cannot set property 'body' of undefined
+    at client_error_response (/Users/yao/composetest/app/app.js:89:12)
+    at /Users/yao/composetest/app/app.js:98:5
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/yao/composetest/app/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+[2021-04-07T04:02:24.658] [ERROR] application - TypeError: Cannot read property 'name' of undefined
+    at /Users/yao/composetest/app/app.js:100:27
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/yao/composetest/app/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/yao/composetest/app/node_modules/koa-convert/index.js:24:16)
+[2021-04-07T04:13:19.405] [ERROR] application - ReferenceError: reqData is not defined
+    at /Users/yao/composetest/app/app.js:92:15
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/yao/composetest/app/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/yao/composetest/app/node_modules/koa-convert/index.js:24:16)
+[2021-04-07T04:31:16.372] [ERROR] application - 上传文件 类型不正确:孙悦b.jpg
+[2021-04-07T04:31:16.380] [ERROR] application - ReferenceError: reqData is not defined
+    at /Users/yao/composetest/app/app.js:92:15
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/yao/composetest/app/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/yao/composetest/app/node_modules/koa-convert/index.js:24:16)
+[2021-04-07T04:31:45.105] [ERROR] application - 上传文件 类型不正确:孙悦b.jpg
+[2021-04-07T05:38:22.785] [ERROR] application - <Buffer 2f 75 73 72 2f 62 69 6e 2f 63 6f 6d 6d 61 6e 64 3a 20 6c 69 6e 65 20 34 3a 20 62 75 69 6c 64 3a 20 63 6f 6d 6d 61 6e 64 20 6e 6f 74 20 66 6f 75 6e 64 ... 1 more byte>
+[2021-04-07T05:41:00.533] [ERROR] application - <Buffer 2f 75 73 72 2f 62 69 6e 2f 63 6f 6d 6d 61 6e 64 3a 20 6c 69 6e 65 20 34 3a 20 2f 55 73 65 72 73 2f 79 61 6f 2f 63 6f 6d 70 6f 73 65 74 65 73 74 2f 61 ... 91 more bytes>
+[2021-04-07T05:45:01.539] [ERROR] application - <Buffer 2f 75 73 72 2f 62 69 6e 2f 63 6f 6d 6d 61 6e 64 3a 20 6c 69 6e 65 20 34 3a 20 2f 55 73 65 72 73 2f 79 61 6f 2f 63 6f 6d 70 6f 73 65 74 65 73 74 2f 61 ... 91 more bytes>
+[2021-04-07T05:46:02.005] [ERROR] application - <Buffer 2f 75 73 72 2f 62 69 6e 2f 63 6f 6d 6d 61 6e 64 3a 20 6c 69 6e 65 20 34 3a 20 2f 55 73 65 72 73 2f 79 61 6f 2f 63 6f 6d 70 6f 73 65 74 65 73 74 2f 61 ... 91 more bytes>
+[2021-04-07T05:54:06.181] [ERROR] application - TypeError: Cannot read property 'type' of undefined
+    at /Users/yao/composetest/app/my_child_pocess.js:9:15
+    at new Promise (<anonymous>)
+    at new Spawn (/Users/yao/composetest/app/my_child_pocess.js:8:11)
+    at /Users/yao/composetest/app/app.js:105:26
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+[2021-04-07T05:55:17.530] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:00:13.692] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:01:56.150] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:04:36.910] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:06:02.877] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:06:38.424] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:14:53.691] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:17:40.822] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:19:29.763] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:27:35.590] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:30:11.930] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T06:33:03.376] [ERROR] application - Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/Users/yao/composetest/app/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T13:54:05.164] [ERROR] application - Error: non-error thrown: {"ok":false,"err":{"type":"Buffer","data":[47,117,115,114,47,98,105,110,47,99,111,109,109,97,110,100,58,32,108,105,110,101,32,52,58,32,47,85,115,101,114,115,47,121,97,111,47,99,111,109,112,111,115,101,116,101,115,116,47,97,112,112,47,112,117,98,108,105,99,47,117,112,108,111,97,100,115,47,106,97,118,97,47,98,101,53,54,102,48,51,100,45,50,54,50,101,45,52,48,54,53,45,57,55,99,50,45,57,102,55,53,52,52,51,52,56,52,56,51,47,72,101,108,108,111,87,111,114,108,100,46,106,97,118,97,58,32,80,101,114,109,105,115,115,105,111,110,32,100,101,110,105,101,100,10]}}
+    at Object.onerror (/Users/yao/composetest/app/node_modules/koa/lib/context.js:119:31)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T14:07:11.483] [ERROR] application - Error: non-error thrown: {"ok":false,"err":{"type":"Buffer","data":[47,117,115,114,47,98,105,110,47,99,111,109,109,97,110,100,58,32,108,105,110,101,32,52,58,32,47,85,115,101,114,115,47,121,97,111,47,99,111,109,112,111,115,101,116,101,115,116,47,97,112,112,47,112,117,98,108,105,99,47,117,112,108,111,97,100,115,47,106,97,118,97,47,101,98,98,57,98,48,54,49,45,101,53,53,99,45,52,100,54,99,45,97,102,98,48,45,102,57,49,57,100,101,50,101,56,102,56,52,47,72,101,108,108,111,87,111,114,108,100,46,106,97,118,97,58,32,80,101,114,109,105,115,115,105,111,110,32,100,101,110,105,101,100,10]}}
+    at Object.onerror (/Users/yao/composetest/app/node_modules/koa/lib/context.js:119:31)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T14:17:04.422] [ERROR] application - Error: non-error thrown: {"ok":false,"err":{"type":"Buffer","data":[47,85,115,101,114,115,47,121,97,111,47,99,111,109,112,111,115,101,116,101,115,116,47,97,112,112,47,112,117,98,108,105,99,47,117,112,108,111,97,100,115,47,106,97,118,97,47,102,100,57,48,51,99,51,56,45,97,53,53,52,45,52,98,54,55,45,56,99,56,55,45,49,53,57,49,49,50,57,50,55,51,56,57,47,72,101,108,108,111,87,111,114,108,100,46,106,97,118,97,58,32,108,105,110,101,32,49,58,32,112,117,98,108,105,99,58,32,99,111,109,109,97,110,100,32,110,111,116,32,102,111,117,110,100,10]}}
+    at Object.onerror (/Users/yao/composetest/app/node_modules/koa/lib/context.js:119:31)
+    at onerror (/Users/yao/composetest/app/node_modules/koa/lib/application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-07T14:22:06.108] [ERROR] application - TypeError: Cannot read property 'ok' of undefined
+    at /Users/yao/composetest/app/app.js:112:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async serve (/Users/yao/composetest/app/node_modules/koa-static/index.js:53:9)
+[2021-04-07T14:22:50.753] [ERROR] application - TypeError: Cannot read property 'ok' of undefined
+    at /Users/yao/composetest/app/app.js:112:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async serve (/Users/yao/composetest/app/node_modules/koa-static/index.js:53:9)
+[2021-04-07T14:25:38.174] [ERROR] application - ReferenceError: resolve is not defined
+    at new Spawn (/Users/yao/composetest/app/my_child_pocess.js:30:27)
+    at /Users/yao/composetest/app/app.js:133:27
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at /Users/yao/composetest/app/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/yao/composetest/app/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    pre {
+      outline: 1px solid #ccc;
+      padding: 5px;
+      margin: 5px;
+    }
+
+    .string {
+      color: green;
+    }
+
+    .number {
+      color: darkorange;
+    }
+
+    .boolean {
+      color: blue;
+    }
+
+    .null {
+      color: magenta;
+    }
+
+    .key {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <input type="file" name="file" id="FileUpload">
+
+  <label>编译器本号:
+    <select name="version" id="version">
+      <option value="8">java-8</option>
+      <option value="9">java-9</option>
+      <option value="10">java-10</option>
+      <option value="1.11">go-1.11</option>
+      <option value="1.12">go-1.12</option>
+      <option value="1.13">go-1.13</option>
+    </select>
+  </label>
+  <button type="submit" onclick="fileSubmit()">上传</button>
+  <br>
+  <br>
+  <pre id="result">
+    </pre>
+  <script src="/jquery.js"></script>
+  <script>
+    function syntaxHighlight(json) {
+      if (typeof json != 'string') {
+        json = JSON.stringify(json, undefined, 2);
+      }
+      json = json.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>');
+      return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+        var cls = 'number';
+        if (/^"/.test(match)) {
+          if (/:$/.test(match)) {
+            cls = 'key';
+          } else {
+            cls = 'string';
+          }
+        } else if (/true|false/.test(match)) {
+          cls = 'boolean';
+        } else if (/null/.test(match)) {
+          cls = 'null';
+        }
+        return '<span class="' + cls + '">' + match + '</span>';
+      });
+    }
+    function fileSubmit() {
+
+      var formData = new FormData();
+      formData.append("file", $("#FileUpload")[0].files[0]);
+
+      var version = $('#version').val()
+      formData.append("version", version)
+
+      $.ajax({
+        url: "/upload",
+        data: formData,
+        type: "Post",
+        dataType: "formData",
+        cache: false,//上传文件无需缓存
+        processData: false,//用于对data参数进行序列化处理 这里必须false
+        contentType: false, //必须
+        success: function (data) {
+          console.log(data)
+          $('#result').html(syntaxHighlight(data));
+
+        },
+        error: function (data) {
+          console.log(data)
+          $('#result').html(syntaxHighlight(data));
+        }
+      })
+
+    }
+  </script>
+</body>
+
+</html>
