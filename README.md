@@ -24,7 +24,7 @@
 ~~~
 cd app			//进入程序目录
 npm install //安装依赖
-npm start		//启动程序
+node app.js		//启动程序
 ~~~
 
 
