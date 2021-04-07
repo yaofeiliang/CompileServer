@@ -149,3 +149,41 @@
     at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
     at serve (/Users/yao/composetest/app/node_modules/koa-static/index.js:53:15)
     at dispatch (/Users/yao/composetest/app/node_modules/koa-compose/index.js:42:32)
+[2021-04-07T15:20:39.157] [ERROR] application - Error: Parse Error
+    at socketOnEnd (_http_server.js:539:22)
+    at Socket.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1220:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  bytesParsed: 0,
+  code: 'HPE_INVALID_EOF_STATE',
+  reason: 'Invalid EOF state',
+  headerSent: true
+}
+[2021-04-07T15:20:39.160] [ERROR] application - Error: Request aborted
+    at IncomingMessage.<anonymous> (/Users/yao/Documents/Uniswap/CompileServer/app/node_modules/formidable/lib/incoming_form.js:122:19)
+    at IncomingMessage.emit (events.js:315:20)
+    at abortIncoming (_http_server.js:532:9)
+    at socketOnClose (_http_server.js:525:3)
+    at Socket.emit (events.js:327:22)
+    at TCP.<anonymous> (net.js:674:12) {
+  headerSent: true
+}
+[2021-04-07T15:22:48.863] [ERROR] application - Error: Parse Error
+    at socketOnEnd (_http_server.js:539:22)
+    at Socket.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1220:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  bytesParsed: 0,
+  code: 'HPE_INVALID_EOF_STATE',
+  reason: 'Invalid EOF state',
+  headerSent: true
+}
+[2021-04-07T15:22:48.869] [ERROR] application - Error: Request aborted
+    at IncomingMessage.<anonymous> (/Users/yao/Documents/Uniswap/CompileServer/app/node_modules/formidable/lib/incoming_form.js:122:19)
+    at IncomingMessage.emit (events.js:315:20)
+    at abortIncoming (_http_server.js:532:9)
+    at socketOnClose (_http_server.js:525:3)
+    at Socket.emit (events.js:327:22)
+    at TCP.<anonymous> (net.js:674:12) {
+  headerSent: true
+}
